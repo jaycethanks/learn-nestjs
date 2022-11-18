@@ -69,4 +69,48 @@ export class CatsController {
 }
 ```
 
-> 注意这里的
+> `CarsService` 通过 `CatsController` 的构造函数注入，其中通过 `private` 修饰符修饰的 `catsService` 是一个成员变量声明的简写。
+>
+> ```js
+> class Department {
+>   id: string;
+>   departname: string;
+>   constructor(id: string, departname: string) {
+>     this.id = id;
+>     this.departname = departname;
+>   }
+> }
+> // 等同于
+> class Department {
+>   constructor(private id: string, public departname: string) {}
+> }
+> ```
+
+### Dependency injection
+
+以上示例中：
+
+```js
+  @Post()
+  async create(@Body() createCatDto: CreateCatDto) {
+    this.catsService.create(createCatDto);
+  }
+```
+
+之所以可以直接通过 `this.catsService.create()` 调用 Service 中的方法，原因是，Nest 在背后做了处理，叫做依赖注入。 
+
+```js
+constructor(private catsService: CatsService) {}
+```
+
+Nest 会创建 CatsService 的示例并赋值给 catsService 成员变量。
+
+
+
+
+
+本章节涉及到依赖注入的部分可以参看这里：
+
+https://www.bilibili.com/video/BV1NG41187Bs?p=10&spm_id_from=pageDriver&vd_source=1a939f65e5f7333a6191746cf99398dd
+
+小满的nestjs 课程
