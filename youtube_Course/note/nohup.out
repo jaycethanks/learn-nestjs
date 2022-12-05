@@ -1,0 +1,39 @@
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[325453:1124/091147.026923:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[325506:1124/091147.125499:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[325565:1124/091147.155196:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+[325565:1124/091147.157837:ERROR:gpu_memory_buffer_support_x11.cc(44)] dri3 extension not supported.
+[325500:1124/091147.159246:ERROR:command_buffer_proxy_impl.cc(125)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[326405:1124/091353.323054:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[326468:1124/091353.428533:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[326527:1124/091353.453716:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+[326527:1124/091353.455399:ERROR:gpu_memory_buffer_support_x11.cc(44)] dri3 extension not supported.
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[326721:1124/091409.605893:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[326772:1124/091409.709006:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[326828:1124/091409.733092:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+[326828:1124/091409.734772:ERROR:gpu_memory_buffer_support_x11.cc(44)] dri3 extension not supported.
+[326684:1124/091415.862631:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[326684:1124/091415.864740:ERROR:network_service_instance_impl.cc(978)] Network service crashed, restarting service.
+[326684:1124/091415.867346:ERROR:gpu_process_host.cc(969)] GPU process launch failed: error_code=1002
+[326684:1124/091415.868230:ERROR:gpu_process_host.cc(969)] GPU process launch failed: error_code=1002
+[326684:1124/091415.868701:ERROR:gpu_process_host.cc(969)] GPU process launch failed: error_code=1002
+[326684:1124/091415.869102:ERROR:gpu_process_host.cc(969)] GPU process launch failed: error_code=1002
+[326684:1124/091415.869433:ERROR:gpu_process_host.cc(969)] GPU process launch failed: error_code=1002
+[326684:1124/091415.869738:ERROR:gpu_process_host.cc(969)] GPU process launch failed: error_code=1002
+[326684:1124/091415.869750:FATAL:gpu_data_manager_impl_private.cc(447)] GPU process isn't usable. Goodbye.
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[328451:1124/091722.792277:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[328509:1124/091722.892610:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[328560:1124/091722.918897:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+[328560:1124/091722.920822:ERROR:gpu_memory_buffer_support_x11.cc(44)] dri3 extension not supported.
+[328489:1124/091722.922318:ERROR:command_buffer_proxy_impl.cc(125)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
